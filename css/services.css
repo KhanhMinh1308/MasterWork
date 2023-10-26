@@ -9,6 +9,9 @@
 html,body{
     font-family: 'Nunito', sans-serif;
 }
+ul {
+    list-style: none;
+}
 img{
     max-width: 100%;
 }
@@ -36,7 +39,7 @@ img{
     margin: 0 auto;
 }
 
-/* our_services  */
+/* services1  */
 
 .header-section h2{
     font-size: 46px;
@@ -91,8 +94,78 @@ img{
     margin-top: 5px;
 }
 
+/* services2  */
+.services2{
+    background-color: rgb(246, 249, 252);
+}
+.services2 .products-right .products-icon{
+    color:#dc4f72;
+    background-color: white;
+    width:40px;
+    height:40px;
+    text-align: center;
+    border-radius: 50%;
 
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 1px 5px 7.5px rgba(0, 0, 0, 0.32);
 
+}
+.services2 .products-middle .img-circle {
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+img.img-move{
+    transition:all 0.5s;
+}
+img.img-move:hover{
+    transform:translateY(-3%);
+}
+
+.services2 .products-right h6{
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 5px;
+    transition: all 0.5s;
+}
+
+.services2 .products-right h6:hover{
+     color:#dc4f72;
+     cursor:pointer;
+}
+
+/* services3 */
+.services3 .card-body .card-title{
+    font-size: 38px;
+    font-weight:800;
+}
+
+.services3 ul.feature-list li {
+    margin: 15px 0;
+    font-weight: 500;
+    
+}
+
+.services3 ul.feature-list li span{
+    color:#dc4f72;
+    margin-right: 15px;
+    font-size: 12px;
+    background-color:#F7F9FC;
+    padding:8px;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+.services3 .card{
+    border:1px solid #F7F9FC ;
+    padding:1rem;
+    border-radius: 6px;
+}
+.services3 .card img{
+    
+    border-radius: 10px;
+}
 
 
 
